@@ -175,17 +175,6 @@
 
 /*main - conteudo*/
 
-
-.showMenu {
-    background-color: var(--white);
-    display: flex;
-    width: 100%;
-}
-
-.showBody {
-    overflow: hidden;
-}
-
 @media (max-width:1200px) {
     .conteudo {
         padding: 20px 10px;
@@ -257,6 +246,17 @@
     
 
     
+
+.showMenu {
+    background-color: var(--white);
+    display: flex;
+    width: 100%;
+}
+
+.showBody {
+    overflow: hidden;
+}
+
 }
 
 @media (max-width: 500px) {
