@@ -253,13 +253,16 @@ body {
         font-size: 3.5em;
     }    
 
+    body.ativo {
+        overflow: hidden;
+    }
         
-    .showMenu {
+    .menu.ativo {
         display: flex;
         width: 100%;
     }
 
-    .showHeader {
+    .cabecalho.ativo {
         position:  fixed;   
         top: 0px;
         height: 15vh;
